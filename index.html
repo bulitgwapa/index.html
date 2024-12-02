@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Landing Page</title>
+  <link rel="stylesheet" type="text/css" href="index(landingpage).css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+  <!-- div sa logo, search button, incident report and login -->
+
+<div class="navbar">
+  <a href="index.html">
+  <img src="l2.WEBP"  id="logo"></a>
+  <a href="#"><i  class="fa fa-fw fa-search" id="Search"></i> Search  <input type="text"></a>
+  <a href="IncidentRF.html"><i class="fa fa-fw fa-envelope" id="Contact"></i> Incident Report</a>
+  <a href="uilogin.html"><i class="fa fa-fw fa-user" id="Login"></i> Login</a>   
+  <p>CMS</p><a href="index.html">
+</div>
+
+<center>
+
+<!-- Slideshow -->
+<div class="slideshow-container">
+  <div class="mySlides">
+    <div class="numbertext"></div>
+    <img src="img1.jfif" id="image">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext"></div>
+    <img src="img2.jfif" id="image">
+    </div>
+
+  <div class="mySlides">
+    <div class="numbertext"></div>
+    <img src="img3.jfif" id="image">
+  </div>
+</div>
+
+ <div class="imggallery">
+  <h1>Crime Gallery</h1>
+ </div>
+
+  <div class="gallery">
+    <img src="c1.jpg" width="1000" height="400">
+  </a>
+  <div class="desc" style="color:   white;">Murder</div>
+</div>
+
+ <div class="gallery">
+    <img src="c2.jfif"width="1000" height="400">
+  </a>
+  <div class="desc" style=" color: white">Murder</div>
+ </div>
+
+<div class="gallery">
+ 
+    <img src="c4.jfif"  width="1000" height="400">
+  </a>
+  <div class="desc"style=" color: white">Crime</div>
+</div>
+
+<div class="gallery">
+    <img src="c3.jpeg"width="1000" height="400">
+  </a>
+  <div class="desc"style=" color: white">Crime</div>
+</div>
+
+<iframe width="300" height="435" style="border-radius: 20px;"  src="https://www.youtube.com/embed/rho2y2Ldp6I?si=pGzzYzgW7nlQaUEa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+  
+</iframe>
+
+  <!-- div sa cms station is located here -->
+<div id="located">
+  <h1>CMS Station is located here</h1>
+</div>
+   <!-- map -->
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15784.68078239838!2d124.65545228279468!3d8.482826588033518!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x32fff2c095854673%3A0x41996445358510f1!2sLapasan%2C%20Cagayan%20de%20Oro%2C%20Misamis%20Oriental!5e0!3m2!1sen!2sph!4v1732782554010!5m2!1sen!2sph" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  <!-- footer  -->
+<div class="socials">
+  <h3>FOR DAILY UPDATES FOLLOW OUR SOCIAL MEDIA ACCOUNTS</h3>
+  <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+  <a href="#" class="fa fa-twitter"></a>
+  <a href="#" class="fa fa-youtube"></a>
+  <a href="#" class="fa fa-instagram"></a>
+  <a href="#" class="fa fa-linkedin"></a>
+
+</div>
+<script type="text/javascript">
+  let slideIndex = 0;
+  showSlides();
+
+  function showSlides() {
+    let i;
+    let slides = document.getElementsByClassName("mySlides");
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) { slideIndex = 1 }
+    slides[slideIndex - 1].style.display = "block";
+    setTimeout(showSlides, 2000); 
+  }
+</script>
+
+</body>
+</html>
+
+
+
+</body>
+</html>

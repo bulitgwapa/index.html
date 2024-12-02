@@ -1,0 +1,180 @@
+body{
+    background: linear-gradient(maroon,black); /* Darker background to complement black navbar */
+    background-repeat: repeat-x;
+    background-size: 100% 100%;
+    margin: 0;
+    }
+  .avatar {
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+#op{
+	color: wheat;
+}
+#mySidenav{
+	background: linear-gradient(maroon,black);
+}
+
+#logo{
+	width: 60px;
+	border-radius: 50px;
+	float: right;
+}
+
+#fb{
+	background: whitesmoke;
+	border-radius: 50px;
+	height: 50px;
+	float: right;
+	margin-right: 15px;
+	margin-top: 10px;
+	width: 50px;
+
+}
+.avatar {
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  float: right;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+.fa-bell{
+	font-size: 20px;
+	color: white;
+	float: right;
+	margin-top: 24px;
+	margin-right: 10px;
+}
+.div1{
+	width: 50%;
+	height: auto;
+	background: linear-gradient(whitesmoke,black);
+}
+.fa-envelope{
+	color: white;
+	float: right;
+	margin-right: 10px;
+	margin-top: 24px;
+}
+hr{
+  margin-top: 40px;
+}
+#name{
+  color: white;
+  float: right;
+  margin-right: 5px;
+  margin-top: 24px;
+}
+#admin{
+  float: right;
+  color: white;  
+  margin-right: -60px;
+  margin-top: 48px;
+}
+#bodyhr{
+  margin-top: 75px;
+}
+.div2{
+  background: #ffffcc;
+  height: 50%;
+  width: 60%;
+  border-radius: 8px;
+  margin-left: 2%;
+}
+h1{
+  letter-spacing: 7px;
+  color: gray;
+}
+.div3{
+  background-color: #ffffcc;
+  height: 40%;
+  width: 60%;
+  border-radius: 8px;
+  margin-left: 2%;
+}
+#nav{
+  margin-left: 10px;
+}
+.rc{
+  margin-left: 20px;
+  margin-top: -10px;
+}
+#recent{
+  margin-top: 20px;
+}
+.spt{
+   background: #ffffcc;
+   height: 300px;
+   width: 30%;
+   border-radius: 8px;
+   float: right;
+   margin-top: -33.8%;
+   margin-right: 2%;
+}
+.resource{
+  background: #ffffcc;
+  width: 30%;
+  float: right;
+  margin-top: -10%;
+  height: auto;
+  margin-right: 2%;
+  border-radius: 8px;
+}
+#img1{
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  float: left;
+  margin-left: 5%;
+  margin-top: 23px;
+}
+#suspect{
+  margin-left: 20%;
+}
+#sname{
+  margin-left: 20%;
+  margin-top: 35px;
+}

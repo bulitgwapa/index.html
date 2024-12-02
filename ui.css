@@ -1,0 +1,106 @@
+body {
+  background: linear-gradient(#2C2C2C, #1A1A1A, #333333); /* Darker background to complement black navbar */
+  background-repeat: repeat-x;
+  background-size: 100% 100%;
+  height: auto;
+  margin: 0;
+}
+/*  div class named navbar para sa header/navrbar*/
+.navbar {
+  width: 100%;
+  background: linear-gradient(maroon,black);
+  overflow: auto;
+  border: 1px;
+  position: fixed;
+}
+/* para sa a tag sa div class nga navbar*/
+.navbar a {
+  float: left;
+  text-align: center;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+/*  hover para sa a tag sa div class named navbar*/
+.navbar a:hover {
+  background: linear-gradient(maroon,white);
+  border-radius: 3%;
+}
+
+/*id sa logo*/
+
+#logo {
+  width: 100px;
+  height: 90px;
+  border-radius: 50px;
+  float: left;
+  position: fixed;
+  margin-top: -10px;
+
+}
+/* para sa input*/
+input {
+  border-radius: 10px;
+
+}
+/*id sa cms nga letter*/
+
+#cms{
+
+ letter-spacing: 5px;
+  color: white;
+  margin-top: 1.75%;
+  margin-left: 10%;
+  font-size: 35px;
+  float: right;
+  margin-right: 40px;
+
+}
+/*id sa search*/
+ #Search{
+    margin-left: 130px;
+  }
+/*  div class sa inputs and button*/
+  .input-container{
+       background-image: url(bg.jpg);
+       width:10%;
+       padding: 8%;
+       margin-bottom: 5%;
+       border:5px solid lightgrey;
+       border-radi us: 10%; 
+       box-shadow: 5px 12px 7px 5px;   
+       border-radius: 20%;
+
+}
+/*id sa word nga create an account*/
+#create{
+  color: white;
+  font-size: 20px;
+}
+/*hover sa input*/
+input:hover{
+    background:linear-gradient(lightgrey,#FB9590,#FFBB94);
+    margin-top: 5px;
+    border-radius: 10px;
+  }
+/*     hover sa button */
+  button:hover{
+    background:linear-gradient(lightgrey,#FB9590,#FFBB94);
+
+  }
+  #head{
+    color: white;
+    letter-spacing: 2px;
+  }
+.fa-user{
+  color: white;
+}
+button{
+  margin-top: 10px;
+  border-radius: 10px;
+}
+br,hr{
+  margin-top: 80px;
+}
+  

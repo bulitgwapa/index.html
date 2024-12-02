@@ -1,0 +1,175 @@
+body {
+  background: linear-gradient(#2C2C2C, #1A1A1A, #333333); /* Darker background to complement black navbar */
+  background-repeat: repeat-x;
+  background-size: 100% 100%;
+  height: auto;
+  margin: 0;
+}
+/*  div class sa nav bar*/
+.navbar {
+  width: 100%;
+ background: linear-gradient(maroon,black);
+  overflow: auto;
+  border: 1px;
+  position: fixed;
+}
+/*  navbar a tag design*/
+.navbar a {
+  float: left;
+  text-align: center;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+/* navbar a tag hover design*/
+.navbar a:hover {
+  background: linear-gradient(maroon,white);
+  border-radius: 3%;
+}
+
+/* id sa logo nga pic*/
+#logo {
+  width: 100px;
+  height: 90px;
+  border-radius: 50px;
+  float: left;
+  position: fixed;
+  margin-top: -10px;
+  margin-bottom: 5px;
+}
+/* para sa input*/
+input {
+  border-radius: 10px;
+  margin-left: 10px;
+
+}
+ 
+/* para sa p tag*/
+
+p {
+  letter-spacing: 5px;
+  color:white;
+  margin-top: 1.75%;
+  margin-left: 10%;
+  font-size: 35px;
+  float: right;
+  margin-right: 40px;
+}
+/* para ma 100% ang width sa slides*/
+.mySlides {
+  width: 100%; 
+}
+/* id sa image*/
+#image {
+  width: 100%; /* Set to full width */
+  height: 400px;
+}
+/*  modify and div .gallery*/
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 30%;
+  margin-top: 3%;
+  margin-left: 6%;
+}
+/* div gallery hover*/
+div.gallery:hover {
+  border: 1px solid #777;
+}
+/*   div.gallery img*/
+div.gallery img {
+  width: 100%;
+  height: 150px;
+}
+/* para sa caption sa pic sa gallery*/
+.caption {
+  text-align: center;
+  font-size: 16px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5); /* Dark background for caption */
+  padding: 10px;
+}
+/* para sa bg sa imggallery*/
+.imggallery{
+  background:linear-gradient(maroon,black);
+  margin-top:-30px;
+  border-radius: 20px;
+}
+/*  para sa letter nga naka h1*/
+
+h1{  
+  letter-spacing: 5px;
+  color: ghostwhite;
+  font-size:  40px;
+  font-family: cambria;
+}
+
+/*margin sa .gallery*/
+.gallery{
+  margin-left:  20%;
+} 
+/*id sa cms station is located*/
+#located{
+   background:linear-gradient(maroon,black);
+   margin-top: -23px;
+   height: 80px;
+   border-radius: 20px;
+  }
+/*  id sa search button*/
+  #Search{
+    margin-left: 130px;
+  }
+
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+    border-radius: 290%;
+    padding: 20px;
+
+  }
+  .fa-user{
+    color: white;
+    margin-top: -30%;
+  }
+  .socials{
+    background:linear-gradient(maroon,black);
+    margin-top: -22px;
+  }
+  .fa {
+  font-size: 30px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  border-radius: 50px;
+  padding: 20px;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+  border-radius: 50px;
+  padding: 20px;
+}
+
+.fa-instagram {
+  background: #007bb5;
+  color: white;
+  padding: 20px;
+  border-radius: 50px;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+  padding: 20px;
+  border-radius: 50px;
+}
+h3{
+  color: white;
+  letter-spacing: 4px;
+}

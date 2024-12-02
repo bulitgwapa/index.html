@@ -1,0 +1,80 @@
+	body{
+		background: linear-gradient(#2C2C2C, #1A1A1A, #333333); /* Darker background to complement black navbar */
+	  background-repeat: repeat-x;
+	  background-size: 100% 100%;
+	  height: auto;
+	  margin: 0;
+	}
+	.input-container{
+	     background-image: url(bg.jpg);
+	     width:10%;
+	     padding: 8%;
+	     margin-top: 6%;
+	     margin-bottom: 10%;
+	     border:5px solid lightgrey;
+	     border-radius: 15%; 
+	     box-shadow: 5px 12px 7px 5px;   
+	     border-radius: 20%;
+
+	}
+	h3{
+		color: floralwhite;
+		letter-spacing: 3px;
+		font:cambria;
+	}
+	input{
+		width:80%;
+		border: 2px solid black;
+		border-radius: 10%;
+		margin-bottom: 5%;
+	}
+	#login{
+		margin-top: 3%;
+		width: 75%;
+		border-radius: 10%;
+		border: 2px;
+		color: gray;
+		border: 2px solid black;
+	}
+	#password{
+		margin-top: 3%;
+	}
+	#head{
+		margin-top:5%;
+		font-size: 20px;
+		color: white;
+	}
+	input:hover{
+		background:linear-gradient(lightgrey,#D4D8DD,#C0C8CA,#AAB7B7,#2E4156,#1A2D42);
+		margin-top: 20px;
+	}
+			
+	button:hover{
+		background:linear-gradient(lightgrey,#FB9590,#FFBB94);
+
+	}
+	a{
+		margin-top: 1%;
+	}
+	.fa-facebook {
+	  background: #3B5998;
+	  color: white;
+	  width: 15%;
+	  border-radius: 290px;
+	}
+	.fa-twitter {
+	  background: #55ACEE;
+	  color: white;
+	  border-radius: 290%;
+	}
+	.fa-google{
+		color: linear-gradient(blue,red,yellow,blue,green,red);
+	}
+	p{
+		color: white;
+	}
+	.fa-user{
+		color: #1A2D42;
+		margin-top: -30%;
+	}
+
